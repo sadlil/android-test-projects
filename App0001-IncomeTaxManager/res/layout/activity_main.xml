@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnmainCalculate"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnmainCalculate"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/image" />
+
+    <Button
+        android:id="@+id/btnPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnmainCalculate"
+        android:layout_centerVertical="true"
+        android:text="Pay Your Tax" />
+
+    <Button
+        android:id="@+id/btnmainCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnPayment"
+        android:layout_centerHorizontal="true"
+        android:text="Calculate Your Income Tax" />
+
+    <Button
+        android:id="@+id/btnAdvantage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnPayment"
+        android:layout_below="@+id/btnPayment"
+        android:text="Why Pay Income Tax" />
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAdvantage"
+        android:layout_below="@+id/btnAdvantage"
+        android:text="Contact Tax Office" />
+
+    <Button
+        android:id="@+id/btnWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAbout"
+        android:layout_below="@+id/btnContact"
+        android:text="Virtual Wallet" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnContact"
+        android:layout_below="@+id/btnWallet"
+        android:text="About" />
+
+</RelativeLayout>

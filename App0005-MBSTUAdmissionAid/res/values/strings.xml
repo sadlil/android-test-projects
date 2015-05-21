@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MBSTU Admission Aid 14</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_seat_plan">Seatplan</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_add_info">AdInfo</string>
+    <string name="title_activity_developerctivity">Developerctivity</string>
+    <string name="title_activity_mbstu_info">MbstuInfoActivity</string>
+    <string name="title_activity_apply">ApplyActivity</string>
+    <string name="title_activity_apply_form">ApplyFormActivity</string>
+    <string name="title_activity_confirm_apply">ConfirmApplyActivity</string>
+
+</resources>

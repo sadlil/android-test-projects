@@ -1,0 +1,229 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" 
+	android:gravity="center_horizontal"
+	android:id="@+id/rootView" >
+
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+
+android:width="500px" android:height="100px"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <GridLayout
+                android:id="@+id/gridLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_gravity="left"
+                    android:text="7" android:width="120px" 
+
+android:onClick="onClick7" android:height="110px"/>
+
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_gravity="left"
+                    android:text="8" android:width="120px" 
+
+android:onClick="onClick8" android:height="110px"/>
+
+
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_gravity="left"
+                    android:text="9" android:width="120px" 
+
+android:onClick="onClick9" android:height="110px"/>
+
+
+                <Button
+                    android:id="@+id/divide"
+                    android:layout_gravity="left"
+                    android:text="/" android:width="120px" 
+
+android:onClick="onClickD" android:height="110px"/>
+
+            </GridLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <GridLayout
+                android:id="@+id/gridLayout4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_gravity="left"
+                    android:text="4" android:width="120px" 
+
+android:onClick="onClick4" android:height="110px"/>
+
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_gravity="left"
+                    android:text="5" android:width="120px" 
+
+android:onClick="onClick5" android:height="110px"/>
+
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_gravity="left"
+                    android:text="6" android:width="120px" 
+
+android:onClick="onClick6" android:height="110px"/>
+
+
+
+                <Button
+                    android:id="@+id/multiply"
+                    android:layout_gravity="left"
+                    android:text="*" android:width="120px" 
+
+android:onClick="onClickMu" android:height="110px"/>
+
+            </GridLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <GridLayout
+                android:id="@+id/gridLayout5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_gravity="left"
+                    android:text="1" android:width="120px" 
+
+android:onClick="onClick1" android:height="110px"/>
+
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_gravity="left"
+                    android:text="2" android:width="120px" 
+
+android:onClick="onClick2" android:height="110px"/>
+
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_gravity="left"
+                    android:text="3" android:width="120px" 
+
+android:onClick="onClick3" android:height="110px"/>
+
+
+                <Button
+                    android:id="@+id/minus"
+                    android:layout_gravity="left" 
+
+android:text="-" android:width="120px" android:onClick="onClickM" 
+
+android:height="110px"/>
+
+            </GridLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <GridLayout
+                android:id="@+id/gridLayout6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+
+
+                <Button
+                    android:id="@+id/C"
+                    android:layout_gravity="left"
+                    android:height="110px"
+                    android:onClick="onClickC"
+                    android:text="C"
+                    android:width="120px" />
+
+
+
+                <Button
+                    android:id="@+id/zero"
+                    android:layout_gravity="left"
+                    android:height="110px"
+                    android:onClick="onClick0"
+                    android:text="0"
+                    android:width="120px" />
+
+                <Button
+                    android:id="@+id/equalsto"
+                    android:height="110px"
+                    android:onClick="onClickEquals"
+                    android:text="="
+                    android:width="120px" />
+
+
+                <Button
+                    android:id="@+id/plus"
+                    android:layout_gravity="left"
+                    android:text="+" android:width="120px" 
+
+android:onClick="onClickP" android:height="110px"/>
+
+            </GridLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

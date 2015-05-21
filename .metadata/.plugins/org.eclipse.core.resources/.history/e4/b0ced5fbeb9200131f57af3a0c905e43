@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Income Tax Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="advntgString">Advantage of Paying Income Text:\n
+        \t1. AAAAAAAAAA\n
+        \t2. BBBBBBBBBBBBBBBBB\n
+        \t3. CCCCCCCCCCCCCCCCCCCCCCC\n
+        \t4. DDDDDDDDDDDD\n
+        \t5. EEEEEEEEE\n
+        \t6. FFFFFFFFFFFFFF\n
+        \t7. GGGGGGGGGGGGGGGGG\n
+        \t8. AAAAAAAAAA\n
+        \t9. BBBBBBBBBBBBBBBBB\n
+        \t10. CCCCCCCCCCCCCCCCCCCCCCC\n
+        \t11. DDDDDDDDDDDD\n
+        \t12. EEEEEEEEE\n
+        \t13. FFFFFFFFFFFFFF\n
+        \t14. GGGGGGGGGGGGGGGGG\n
+        \t15. AAAAAAAAAA\n
+        \t16. BBBBBBBBBBBBBBBBB\n
+        \t17. CCCCCCCCCCCCCCCCCCCCCCC\n
+        \t18. DDDDDDDDDDDD\n
+        \t19. EEEEEEEEE\n
+        \t20. FFFFFFFFFFFFFF\n
+        \t21. GGGGGGGGGGGGGGGGG\n
+        \t22. AAAAAAAAAA\n
+        \t23. BBBBBBBBBBBBBBBBB\n
+        \t24. CCCCCCCCCCCCCCCCCCCCCCC\n
+        \t25. DDDDDDDDDDDD\n
+        \t26. EEEEEEEEE\n
+        \t27. FFFFFFFFFFFFFF\n
+        \t28. GGGGGGGGGGGGGGGGG\n
+        \t29. AAAAAAAAAA\n
+        \t30. BBBBBBBBBBBBBBBBB\n
+        \t31. CCCCCCCCCCCCCCCCCCCCCCC\n
+        \t32. DDDDDDDDDDDD\n
+        \t33. EEEEEEEEE\n
+        \t34. FFFFFFFFFFFFFF\n
+        \t35. GGGGGGGGGGGGGGGGG\n
+        \t36. AAAAAAAAAA\n
+        \t37. BBBBBBBBBBBBBBBBB\n
+        \t38. CCCCCCCCCCCCCCCCCCCCCCC\n
+        \t39. DDDDDDDDDDDD\n
+        \t40. EEEEEEEEE\n
+        \t41. FFFFFFFFFFFFFF\n
+        \t7. GGGGGGGGGGGGGGGGG\n
+        \t1. AAAAAAAAAA\n
+        \t2. BBBBBBBBBBBBBBBBB\n
+        \t3. CCCCCCCCCCCCCCCCCCCCCCC\n
+        \t4. DDDDDDDDDDDD\n
+        \t5. EEEEEEEEE\n
+        \t6. FFFFFFFFFFFFFF\n
+        \t7. GGGGGGGGGGGGGGGGG\n
+        </string>
+        
+    
+    
+    <string name="aboutString">\nIncome Tax Calculator\nDeveloped by : Kazi Sadlil Rhythm\nDept. of ICT,\nMBSTU,\nTangail.
+       \n\n\n\n\nCreated To Help People understand there income tax properly and pay them.
+       </string>
+
+</resources>

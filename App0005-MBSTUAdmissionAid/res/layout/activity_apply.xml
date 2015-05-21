@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplyActivity" >
+
+    <Button
+        android:id="@+id/btnaplcnf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="56dp"
+        android:text="Confirm Registration" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnaplcnf"
+        android:layout_alignParentLeft="true"
+        android:text="Already Applied for the MBSTU and Have Recived the PIN Number. Click the Confirm Button to Confirm Your Registration..."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnaplapl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:hint="Hint for apply"
+        android:text="Apply" />
+
+    <TextView
+        android:id="@+id/cnfapltxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnaplapl"
+        android:layout_alignParentLeft="true"
+        android:text="Click the Apply Button for Appling in MBSTU. Make Sure you have an Teletalk SIM Installed in your Phone and have Sufficient Balance...."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text=" Application Deadline Ends for Year 2014.."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

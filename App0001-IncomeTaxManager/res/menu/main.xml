@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+	
+    <item 
+        android:id="@+id/tesTMenuOne"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Test Menu One"/>
+	
+    <item 
+        android:id="@+id/tesTMenuTwo"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Test Menu Two"/>
+	
+    <item 
+        android:id="@+id/tesTMenuThree"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Test Menu Three"/>
+	
+    
+</menu>

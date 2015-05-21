@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <ImageButton
+        android:id="@+id/imageButtonEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="84dp"
+        android:src="@drawable/email" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonEmail"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/phn" />
+
+    <TextView
+        android:id="@+id/textViewProvide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Contact To Income Tax Office" />
+
+</RelativeLayout>

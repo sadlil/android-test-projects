@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6755.57" >
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+        	<TextView
+            	android:id="@+id/textView1"
+            	android:layout_width="fill_parent"
+            	android:layout_height="fill_parent"
+            	android:text="Please Provide Your Information Below to Calculate Your Income Tax.."
+            	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        	<Spinner
+        	    android:id="@+id/spinnerGender"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginTop="14dp" 
+        	    />
+        	
+        	
+			
+        	<CheckBox
+        android:id="@+id/checkBoxDisable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57"
+        android:text="Checked If Disabled" />
+
+    <CheckBox
+        android:id="@+id/checkBoxgovEmpl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57"
+        android:text="Chek If Govt. Employe" />
+
+    <Button
+        android:id="@+id/buttonBDday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57"
+        android:text="Select Your Birth Date" />
+
+    <Spinner
+        android:id="@+id/spinnerResidance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57" />
+        		
+	<EditText
+	    android:id="@+id/editTextSalary"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="6755.57"
+	    android:ems="10"
+	    android:hint="Salary Income Yearly" />
+    
+
+    <EditText
+        android:id="@+id/editTextHouseRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57"
+        android:ems="10"
+        android:hint="House Rent Yearly" />
+
+    
+    <EditText
+        android:id="@+id/editTextBusinessIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57"
+        android:ems="10" 
+        android:hint="Bussness Income Yearly"/>
+    
+    
+    <EditText
+        android:id="@+id/editTextInvest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57"
+        android:ems="10"
+        android:hint="Yearly Investment" />
+    
+    <EditText
+        android:id="@+id/editTextTaxPayed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57"
+        android:ems="10"
+        android:hint="Tax Pre Paid" />
+    
+    <EditText
+        android:id="@+id/editTextTaxDue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57"
+        android:ems="10"
+        android:hint="Tax Due" />
+    
+    
+    <Button
+        android:id="@+id/buttonCacl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="6755.57"
+        android:text="Calculate Your IncomeTax" />
+    
+    		
+        </LinearLayout>
+        
+    </ScrollView>
+
+
+</LinearLayout>
